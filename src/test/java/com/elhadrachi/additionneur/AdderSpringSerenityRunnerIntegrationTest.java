@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.test.context.ContextConfiguration;
-import steps.AdderServiceSteps;
+import com.elhadrachi.additionneur.steps.AdderServiceSteps;
 
 @RunWith(SpringIntegrationSerenityRunner.class)
 @ContextConfiguration(locations = "classpath:adder-beans.xml")

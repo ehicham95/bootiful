@@ -1,9 +1,9 @@
-package steps;
+package com.elhadrachi.additionneur.steps;
 
 import org.junit.Assert;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
-import service.AdderService;
+import com.elhadrachi.additionneur.service.AdderService;
 
 
 @ContextConfiguration(classes = AdderService.class)

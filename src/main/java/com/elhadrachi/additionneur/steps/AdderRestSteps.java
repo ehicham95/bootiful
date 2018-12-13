@@ -1,4 +1,4 @@
-package steps;
+package com.elhadrachi.additionneur.steps;
 
 import io.restassured.module.mockmvc.response.MockMvcResponse;
 import net.thucydides.core.annotations.Step;

@@ -4,7 +4,7 @@ import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
-import steps.AdderServiceSteps;
+import com.elhadrachi.additionneur.steps.AdderServiceSteps;
 
 public class AdderStory {
     @Steps
