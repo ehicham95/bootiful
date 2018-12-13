@@ -3,7 +3,12 @@ jdk: oraclejdk8
 branches:
   only:
     - master
+addons:
+  sonarcloud:
+    organization: "ehicham95-github" # the key of the org you chose at step #3
+    token:
+      secure: dd9ae2c62263c1c07035d46b968bfc7e375b5cc0 # encrypted value of your token
 script:
-  - mvn test
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
 after_deploy:
 - echo "done deploying"
