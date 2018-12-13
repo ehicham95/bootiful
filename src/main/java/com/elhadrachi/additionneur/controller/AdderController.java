@@ -23,7 +23,7 @@ public class AdderController {
     public int add(@RequestParam int num) {
         return adderService.add(num);
     }
-    @PostMapping
+    @PostMapping("/add/accumulate")
     @CrossOrigin(origins = "http://localhost:4200")
     public int accumulate(@RequestParam int num){
         return this.adderService.accumulate(num);
