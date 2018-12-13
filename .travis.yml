@@ -1,0 +1,9 @@
+language: java
+jdk: oraclejdk8
+branches:
+  only:
+    - master
+script:
+  - mvn test
+after_deploy:
+- echo "done deploying"
